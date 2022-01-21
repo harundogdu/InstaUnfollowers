@@ -1,0 +1,44 @@
+body {
+    width: 450px;
+    padding: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    text-align: center !important;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main h1 {
+    color: #0a0a0a;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.main .container ul {
+    display: flex;
+}
+
+.main .container ul li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+.main .container ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.main .container ul li a:hover {
+    color: #ce5a5a;
+}

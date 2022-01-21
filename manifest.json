@@ -1,0 +1,23 @@
+{
+  "name": "InstaUnfollowers",
+  "description": "InstaUnfollowers is a simple app that allows you to unfollow people who don't follow you back.",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png"
+    }
+  },
+  "permissions": ["activeTab", "scripting", "https://www.instagram.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
+}
